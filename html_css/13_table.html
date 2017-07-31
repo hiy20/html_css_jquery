@@ -6,12 +6,24 @@
 		table{
 			border:1px solid black;
 			caption-side: bottom;
-			border-spacing:;
-			border-collapse:;
+			border-collapse: collapse;
+		}
+		td,th{
+			text-align: center;
+			border: 1px dotted gray;
+		}
+		th{
+			background-color:lightgray;
 		}
 		caption{
 			font-size:10px;
 		}
+		.city{
+			background-color: #ff8c00;
+		}
+        table table th{
+        	background-color: green;
+        }
 	</style>
 </head>
 <body>
@@ -20,14 +32,34 @@
 	<tr>
 		<th>city</th>
 		<th>temp</th>
+		<th>temp2</th>
+		<th>date</th>
 	</tr>
 	<tr>
-		<td>seoul</td>
+		<td class="city">seoul</td>
+		<td colspan="2">
+            <table>
+            	<tr>
+            		<th>1</th>
+            		<th>2</th>
+            	</tr>
+            	<tr>
+            		<td>3</td>
+            		<td>4</td>
+            	</tr>
+            </table>
+		</td>
+		<td rowspan="3">0731</td>
+	</tr>
+	<tr>
+		<td class="city">daegu</td>
+		<td>31'c</td>
 		<td>29'c</td>
 	</tr>
 	<tr>
-		<td>daegu</td>
+		<td class="city">busan</td>
 		<td>31'c</td>
+		<td>29'c</td>
 	</tr>
 </table>
 </body>

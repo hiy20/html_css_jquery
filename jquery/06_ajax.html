@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<p>time : <span id="time"></span></p>
+
+<input type='button' id='getTime' value='getTime'>
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.4.min.js">
+</script> 
+
+<script type="text/javascript">
+	$('#getTime').click(function(){
+		$.ajax({
+			url:'http://keenset.dothome.co.kr/test.php'
+			sucess:function(data){
+				$('#time')
+
+			}
+		})
+	})
+</script>
+
+</body>
+</html>

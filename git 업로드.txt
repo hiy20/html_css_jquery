@@ -1,0 +1,7 @@
+cd c:
+git add --all
+git commit -m ""
+git push origin master
+
+
+html_css_jquery 

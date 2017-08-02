@@ -22,7 +22,7 @@
 </ul>
 
 <a href='http://www.naver.com'>naver</a>
-<a href='http://www.daum.net'>daum</a>
+<a href='http://www.daum.net' target="_blank">daum</a>
 
 <input type='button' id='myButton' value='button'>
 
@@ -37,7 +37,11 @@
 			//$('p:first').hide()
 			//$('ul li:first').hide()
 			//$('ul li:first-child').hide()
-			$('[href]').hide()
+			//$('[href]').hide()
+			//$('a[target="_blank"]').hide()
+			$("a[target!='_blank']").hide()  //!느낌표 붙이면 아닌 경우
+			//$('tr:even').css('background-color','yellow') 짝수열 컬러
+			//$('tr:odd').css('background-color','white') 홀수열 컬러
 		})
 
 	})

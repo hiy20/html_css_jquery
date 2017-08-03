@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<p id='time'></p>
+<script type="text/javascript">
+	//window.setTimeout(function(){
+	//	alert('hello world')
+	//}, 5000)
+	
+	var myValue = document.getElementById('time')
+	window.setInterval(function(){
+		var myDate = new Date()
+		console.log(myDate)
+		//document.write(myDate)
+		myValue.innerHTML = myDate
+	}, 1000)
+</script>
+
+</body>
+</html>

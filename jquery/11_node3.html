@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.ancestors *{
+			border: 1px solid black;
+			color:lightgray;
+			padding: 5px;
+			margin:15px;
+		}
+	</style>
+</head>
+<body>
+ <div class='ancestors'>
+ 	<div style="width: 500px">
+ 		div (greate grandparent)
+ 		<ul> ul (grandparent)
+ 			<li>(direct parent)
+ 				<span>span</span>
+ 			</li>
+ 		</ul>
+ 	</div>
+     
+     <div style="width: 500px;">
+     	div(grandparent)
+		<p>p (direct parent)
+			<span>span</span>
+		</p>
+     	<p class="myClass">p2</p>
+     	<h1>h1</h1>
+     </div>
+
+ </div>
+ <script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.min.js">
+   </script>
+   <script type="text/javascript">
+   	    $(function(){
+   	    	$('#accorian div').hide()
+   	    	$('#accorian h2') .click(function(){
+   	    		$(this).next().slideDown()
+                $(this).next().siblings('div').slideUp()
+   	    	})
+   </script>
+</body>
+</html>

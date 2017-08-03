@@ -19,10 +19,10 @@
 </head>
 <body>
 	<ul>
-		<li><a href="#"></a>hello111</li>
-		<li><a href="#"></a>world</li>
-		<li><a href="#"></a>oracle</li>
-		<li><a href="#"></a>java</li>
+		<li><a href="#">hello111</a></li>
+		<li><a href="#">world</a></li>
+		<li><a href="#">oracle</a></li>
+		<li><a href="#">java</a></li>
 	</ul>
    <script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.min.js">
    </script>
@@ -32,7 +32,7 @@
    	  	$('li').hover(function(){
    	  		$('this').stop()
    	  		$('this').animate({paddingLeft:'50px'},500,'easeOutCirc')
-   	  	}, function(){
+   	  	}, (function(){
             $('this').stop()
             $('this').animate({paddingLeft:'0px'},500,'easeOutBounce')
    	  	})

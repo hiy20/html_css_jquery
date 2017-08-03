@@ -52,12 +52,13 @@ READ MORE</p>
    <script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.min.js">
    </script>
    <script type="text/javascript">
-   	$(function(){
-   		$('#accordian div').hide()
-   		$('#accordian h2').click(function(){
-   			
-   		})
-   	})
+        $(function(){
+          $('#accordian div').hide()
+           $('#accordian h2').click(function(){
+              $(this).next().slideDown()
+              $(this).next().siblings('div').slideUp()
+          })
+        })
    </script>
 </body>
 </html>

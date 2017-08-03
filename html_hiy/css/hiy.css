@@ -1,0 +1,189 @@
+header{
+	display: block;
+}
+
+html{
+	font-family: sans-serif;
+}
+
+body{
+	margin: 0;
+}
+h1{
+	font-size: 1.7em;
+	font-family: Verdana, Geneva, Arial;
+	margin:2px 0;
+}
+img{
+	border:0;
+}
+
+/*초기화*/
+html, body,div, header,footer,ul, li, h1, h2, p{
+	margin: 0;
+	padding:0;
+}
+ul{
+	list-style: none;
+
+}/*링크스타일*/
+a:link{
+	color: #4f4f4f;
+	text-decoration: none;
+}
+a:visited{
+	color:#8a8e91;
+	text-decoration: none;
+}
+a:hover, a:focus{
+	color:#ff0000;
+	text-decoration: none;
+}
+
+/*기본스타일*/
+body{
+	background-color: #fff;
+}
+
+ #header, #visual, #contentsArea{
+    width: 640px;
+    margin:0 auto;
+}
+
+#header{
+	position: relative;
+}
+
+#header h1{
+	position: absolute;
+	top:20px;
+}
+h2{
+	color:#000;	
+	font-size: 1.2em;
+	font-family: Verdana, Geneva, Arial;
+}
+p{
+	color:#3d3d3d;
+	font-size: 0.9em;
+	line-height: 1.6;
+	font-family: Verdana, Geneva, Arial;
+}
+.mainMenu{
+	padding-left:320px;
+}
+.mainMenu li, .mainMenu li a{
+	display: inline-block;
+	padding: 10px 5px;
+}
+.home:first-child{
+	color:red;
+}
+
+#visual{
+	position: relative;
+	background-image: url(../images/head-bg.jpg);
+	width: 1350px;
+	height: 272px;
+}
+
+
+#visual .avatar img{
+	border-radius: 50px 50px;
+	
+	margin-left: 280px;
+    background-color:#fff;
+	width: 60px;
+	height: 60px;
+}
+#visual .hello {
+	position: absolute;
+    top:110px;
+    left:380px;
+	padding:10px 5px;
+	color:red;
+	font-family: Verdana, Geneva, Arial;
+	letter-spacing: 1px;
+	text-align: center;
+	font-size: 0.8em;
+	width: 480px;
+	height:20px;
+	border-radius: 5PX 5PX;
+	border: 1px solid red;
+	background-color: #fff;
+	
+}
+#galaxy img{
+	padding-top:10px;
+}
+#galaxy .button01{
+    margin-top:30px;
+    margin-bottom:20px;
+	width:120px;
+	height: 25px;
+	text-align: center;
+	border-radius: 3px 3px;
+	border: 1px solid red;
+	background-color: #fff;
+}
+#galaxy .button01 a{
+	color:red;
+	font-family: Verdana, Geneva, Arial;
+	font-size: 0.8em;
+	letter-spacing: 2px;
+	
+}
+
+#galaxy h2{
+	padding-top: 10px;
+}
+#galaxy span, #theMoon span{
+	font-weight: bold;
+	font-family: Verdana, Geneva, Arial;
+	font-size: 0.8em;
+}
+
+#galaxy .tag p{
+	font-family: Verdana, Geneva, Arial;
+	font-size: 0.6em;
+	color:green;
+}
+
+#theMoon h2{
+ padding-top: 30px;
+}
+
+#theMoon .post p{
+	display: inline-block;
+	width:369px;
+}
+
+
+#theMoon .post img{
+	float: right;
+	padding: 0px;
+}
+#infoArea{
+	margin:20px 0 0;
+   	width:150px;
+	height:30px;
+	background-color: #000;
+	text-align: center;
+} 
+
+#infoArea a{
+	color:#fff;
+	font-size: 0.8em;
+	font-family: Verdana, Geneva, Arial;
+	letter-spacing: 1px;
+}
+
+#footer p{
+    margin-top: 30px;
+	color:#cdcdcd;
+	font-size: 0.9em;
+	font-family: Verdana, Geneva, Arial;
+	letter-spacing: 2px;
+	text-align: center;
+}
+

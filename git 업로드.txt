@@ -10,3 +10,5 @@ html_css_jquery
 https://github.com/jhjh550/html_css_jquery/blob/master/jquery/11_node2.html
 
 https://cdnjs.com/libraries/jquery-easing
+
+https://www.w3schools.com/

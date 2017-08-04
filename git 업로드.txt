@@ -1,13 +1,16 @@
+하단 검색창---> Git Bash ---->접속
+--------------------------------------------------------------
 cd 강의
 git add --all
 git commit -m ""
 git push origin master
 
-
+--------------------------------------------------------------
 html_css_jquery 
 
+https://github.com/hiy20/html_css_jquery/
 
-https://github.com/jhjh550/html_css_jquery/blob/master/jquery/11_node2.html
+https://github.com/jhjh550/html_css_jquery
 
 https://cdnjs.com/libraries/jquery-easing
 
@@ -16,3 +19,21 @@ https://www.w3schools.com/
 https://developer.mozilla.org/ko/
 
 https://codepen.io/
+
+----------------------------------------------------------------
+
+생활코딩 /  인프런
+
+
+유튜브  --->html강좌 검색해서 공부해도 좋음
+
+https://www.udemy.com/
+
+https://www.inflearn.com/
+
+https://caniuse.com/
+
+http://www.sketchup.com/
+
+
+http://cafe.naver.com/fordeveloper(학원 카페)
